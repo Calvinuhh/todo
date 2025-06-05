@@ -1,7 +1,6 @@
 import app from "./app";
 import DBConnect from "./config/database";
 
-process.loadEnvFile();
 const { PORT } = process.env;
 
 DBConnect()

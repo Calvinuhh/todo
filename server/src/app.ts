@@ -4,7 +4,6 @@ import cors from "cors";
 
 const app = express();
 
-process.loadEnvFile();
 const { CLIENT_URL } = process.env;
 
 app.use(

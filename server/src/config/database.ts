@@ -1,6 +1,5 @@
 import { connect } from "mongoose";
 
-process.loadEnvFile();
 const { DB_URI } = process.env as { DB_URI: string };
 
 export default async function DBConnect() {

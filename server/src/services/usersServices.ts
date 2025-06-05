@@ -3,7 +3,6 @@ import { NewUser, Login } from "../interfaces&types/User";
 import { hash, compare } from "bcrypt";
 import { sign } from "jsonwebtoken";
 
-process.loadEnvFile();
 const { JWT_SECRET } = process.env as { JWT_SECRET: string };
 
 export const createUser = async (data: NewUser) => {

@@ -11,7 +11,6 @@ declare global {
   }
 }
 
-process.loadEnvFile();
 const { JWT_SECRET } = process.env;
 
 export const authorization = async (
